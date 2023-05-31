@@ -3,7 +3,7 @@
 - Created classes for each client name and implemented their own CalculateCredit method, so when a new type of customer is needed to add to the project, we'll just create new client name class and implement its own CalculateCredit method.
 - Injected UserCreditService to these client classes to make classes testable.
 - Injected ClientRepostitory to the constructor with constructor chaining.
-- Created extension methods for general validation methods for reusebality.
+- Created extension methods for general validation methods for reusability.
 - Wrapped static DataAccess class with repository class to make it testable.
 
 
